@@ -9,4 +9,4 @@ class User(db.Model):
     password = db.Column(db.String(100), nullable=False)
     user_type = db.Column(db.String(20), nullable=False)  # business or employee
     # Add more fields as needed
-        
+   #heloo     
