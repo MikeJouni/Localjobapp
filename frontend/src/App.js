@@ -1,11 +1,25 @@
 import React from 'react';
-import Login from './components/Login';
+
+
 
 const App = () => {
   return (
     <div>
       <h1>Welcome to the App Sheikh</h1>
-      <Login />
+      <div>
+        <h2>Login</h2>
+        <form>
+          <div>
+            <label>Username:</label>
+            <input type="text" />
+          </div>
+          <div>
+            <label>Password:</label>
+            <input type="password" />
+          </div>
+          <button type="submit">Login</button>
+        </form>
+      </div>
     </div>
   );
 };
